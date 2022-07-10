@@ -16,15 +16,10 @@ This can be problematic if you need to convert very large files or if your files
 ## Installation 
 1) Clone my repository or download as a Zip file. 
 2) Make sure that Elm is installed. 
-3) Enter 
-```
-$ elm reactor 
-```
-and then open this link: http://localhost:8000/src/Main.elm <br/>
-4) Or if you prefer using the web application via index.html
+3) Enter the following command and then open the index.html file.
+
 ```
 elm make src/Main.elm
 ```
-and open the index.html file
 
 Success!
