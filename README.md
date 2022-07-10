@@ -20,7 +20,7 @@ This can be problematic if you need to convert very large files or if your files
 ```
 $ elm reactor 
 ```
-and then open this link: http://localhost:8000/src/Main.elm 
+and then open this link: http://localhost:8000/src/Main.elm <br/>
 4) Or if you prefer using the web application via index.html
 ```
 elm make src/Main.elm
