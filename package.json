@@ -1,5 +1,5 @@
 {
-  "name": "csv-to-json",
+  "name": "FriendlyJSONConverter",
   "repository": {
     "type": "git",
     "url": "https://github.com/alnmathw/FriendlyJSONConverter"

@@ -62,7 +62,7 @@ main =
 
 
 view model =
-    { title = "csv-to-json"
+    { title = "FriendlyJSONConverter"
     , body =
         [ layout [ Font.size 13 ] <|
             column
