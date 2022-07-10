@@ -1,5 +1,10 @@
 {
   "name": "csv-to-json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alnmathw/FriendlyJSONConverter"
+  },
+  "homepage": "https://alnmathw.github.io/FriendlyJSONConverter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +14,12 @@
     "vite": "^2.9.6",
     "vite-plugin-elm": "^2.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite"
   },
